@@ -1,0 +1,49 @@
+body { background-color: #f4f6f9; font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; padding: 0; }
+.admin-container { max-width: 1000px; margin: 30px auto; background: #ffffff; padding: 25px 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); }
+.header-section { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.header-section h2 { margin: 0; color: #1e293b; }
+.tabel-pekerja { width: 100%; border-collapse: collapse; margin-top: 15px; }
+.tabel-pekerja th, .tabel-pekerja td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #e2e8f0; }
+.tabel-pekerja th { background-color: #f8fafc; color: #475569; font-weight: 600; }
+.tabel-pekerja tr:hover { background-color: #f1f5f9; }
+.img-thumb { width: 45px; height: 45px; border-radius: 50%; object-fit: cover; }
+.input-group { margin-bottom: 15px; display: flex; flex-direction: column; }
+.input-group label { font-weight: 600; margin-bottom: 6px; color: #334155; font-size: 14px; }
+.input-group input, .input-group select { padding: 10px 14px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 14px; outline: none; }
+.input-group input:focus, .input-group select:focus { border-color: #0284c7; }
+.form-actions { display: flex; justify-content: flex-end; gap: 10px; }
+.dropzone { border: 2px dashed #0284c7; border-radius: 10px; padding: 20px; text-align: center; background-color: #f0f9ff; cursor: pointer; transition: all 0.3s ease; }
+.dropzone:hover { background-color: #bae6fd; }
+.dropzone p { margin: 0; color: #0369a1; font-weight: 600; font-size: 14px; }
+.dropzone img { max-height: 100px; max-width: 100px; object-fit: cover; border-radius: 50%; border: 3px solid #0284c7; }
+.btn-tambah { background-color: #0284c7; color: white; padding: 10px 16px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 14px; }
+.btn-preview { background-color: rgba(255, 255, 255, 0.2); color: white; padding: 6px 12px; border-radius: 6px; text-decoration: none; font-size: 13px; }
+.btn-edit { background-color: #eab308; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: 600; }
+.btn-hapus { background-color: #ef4444; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: 600; }
+.btn-simpan { background-color: #10b981; color: white; padding: 10px 18px; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; }
+.btn-batal { background-color: #64748b; color: white; padding: 10px 18px; border-radius: 6px; text-decoration: none; font-size: 14px; }
+/* Container Input Password dengan Ikon Mata */
+.password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-wrapper input {
+    width: 100%;
+    padding-right: 42px !important; /* Ruang agar teks tidak tertimpa ikon */
+}
+
+.toggle-password {
+    position: absolute;
+    right: 12px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    user-select: none;
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+}
+
+.toggle-password:hover {
+    opacity: 1;
+}
